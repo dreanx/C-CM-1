@@ -11,7 +11,7 @@ namespace CM_Tuto_Real_10_min
         static void Main(string[] args)
         {
 
-            int i = 50;
+            int i = 55;
             string s = "test";
             Console.WriteLine("Hello " + i + " " + s); 
             TestFunction();
