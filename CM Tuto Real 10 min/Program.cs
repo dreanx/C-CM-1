@@ -8,12 +8,20 @@ namespace CM_Tuto_Real_10_min
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void TestFunction()
         {
 
+        }
+
+        static bool SecondTestFunction(int i)
+        {
+            return i < 100;
+        }
+        static void Main(string[] args)
+        {
             int i = 55;
             string s = "test";
-            Console.WriteLine("Hello " + i + " " + s); 
+            Console.WriteLine("Hello " + i + " " + s);
             TestFunction();
             bool bFalse = SecondTestFunction(105);
             bool bTrue = SecondTestFunction(50);
@@ -28,19 +36,12 @@ namespace CM_Tuto_Real_10_min
             // Print the value of the variable (userName), which will display the input value
             Console.WriteLine("Username is: " + userName);
 
+            // Print the age and convert it to an int
+            Console.WriteLine("Enter your age:");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your age is: " + age);
+
             Console.ReadKey();
         }
-    
-
-
-        static void TestFunction()
-            {
-
-            }
-
-        static bool SecondTestFunction(int i)
-            {
-            return i < 100;
-            }
     }
 }
