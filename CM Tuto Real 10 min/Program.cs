@@ -12,7 +12,6 @@ namespace CM_Tuto_Real_10_min
         {
 
         }
-
         static bool SecondTestFunction(int i)
         {
             return i < 100;
