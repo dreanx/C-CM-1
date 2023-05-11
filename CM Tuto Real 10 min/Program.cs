@@ -8,14 +8,6 @@ namespace CM_Tuto_Real_10_min
 {
     internal class Program
     {
-        static void TestFunction()
-        {
-
-        }
-        static bool SecondTestFunction(int i)
-        {
-            return i < 100;
-        }
         static void Main(string[] args)
         {
             int i = 55;
@@ -41,6 +33,15 @@ namespace CM_Tuto_Real_10_min
             Console.WriteLine("Your age is: " + age);
 
             Console.ReadKey();
+        }
+
+        static void TestFunction()
+        {
+
+        }
+        static bool SecondTestFunction(int i)
+        {
+            return i < 100;
         }
     }
 }
